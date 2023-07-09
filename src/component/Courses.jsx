@@ -1,17 +1,21 @@
-import React from "react";
-
+import React, { useState } from "react";
+import webDev from "../images/web-dev.png";
+import robotDev from "../images/robot.png";
+import gameDev from "../images/game-dev (3).png";
+import ui from "../images/ui-design.png";
+import learning from "../images/icons/education-learning-6.svg";
 export default function Courses() {
   return (
     // <div class="max-w-[85rem] my-24 mx-auto md:px-6">
     //   <section class="mb-32 text-center">
-    //     <div class="flex justify-center">
-    //       <div class="max-w-[700px] text-center">
-    //         <h2 class="mb-6 text-center text-3xl font-bold">Classes</h2>
-    //         <p class="mb-16 text-neutral-500 dark:text-neutral-300">
-    //           Popular Topic To Learn
-    //         </p>
-    //       </div>
-    //     </div>
+    // <div class="flex justify-center">
+    //   <div class="max-w-[700px] text-center">
+    //     <h2 class="mb-6 text-center text-3xl font-bold">Classes</h2>
+    //     <p class="mb-16 text-neutral-500 dark:text-neutral-300">
+    //       Popular Topic To Learn
+    //     </p>
+    //   </div>
+    // </div>
 
     //     <div class="grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-12">
     //       <div class="mb-12 lg:mb-0 rounded-lg shadow-xl p-6">
@@ -117,128 +121,103 @@ export default function Courses() {
     //     </div>
     //   </section>
     // </div>
-
-    <section class="bg-[#F3F4F6] pt-20 pb-10 lg:pt-[120px] lg:pb-20">
-      <div class="max-w-[85rem] mx-auto">
-        <div class="-mx-4 flex flex-wrap flex-row">
-          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-            <div class="mb-10 overflow-hidden rounded-lg bg-white">
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
-                alt="image"
-                class="w-full"
-              />
-              <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
-                <h3>
-                  <a
-                    href="javascript:void(0)"
-                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-                  >
-                    50+ Best creative website themes & templates
-                  </a>
-                </h3>
-                <p class="text-body-color mb-7 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
-                </p>
-                <a
-                  href="javascript:void(0)"
-                  class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                >
-                  View Details
-                </a>
-              </div>
+    <>
+      <section class="bg-[#F3F4F6] pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+        <div class="max-w-[85rem] mx-auto">
+          <div class="flex justify-center">
+            <div class="text-center">
+              <h2 class="mb-6 text-center text-5xl font-bold text-purple-700">
+                Classes
+              </h2>
+              <p class="text-body-color mb-16  text-2xl font-medium leading-relaxed">
+                Popular Topic To Learn
+              </p>
             </div>
           </div>
-          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-            <div class="mb-10 overflow-hidden rounded-lg bg-white">
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
-                alt="image"
-                class="w-full"
-              />
-              <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
-                <h3>
-                  <a
-                    href="javascript:void(0)"
-                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-                  >
-                    50+ Best creative website themes & templates
-                  </a>
-                </h3>
-                <p class="text-body-color mb-7 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
-                </p>
-                <a
-                  href="javascript:void(0)"
-                  class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                >
-                  View Details
-                </a>
+          <div class="-mx-4 flex flex-wrap flex-row">
+            <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+              <div class="mb-10 overflow-hidden rounded-lg bg-green-300">
+                <img src={webDev} alt="image" class="w-full" />
+                <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9 bg-white">
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                    >
+                      WEB DEVELOPMENT
+                    </a>
+                  </h3>
+                  <p class="text-body-color mb-7 text-base leading-relaxed">
+                    Master front-end and back-end technologies. Build dynamic
+                    websites and web applications using HTML, CSS, JavaScript,
+                    React, and Node.js.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-            <div class="mb-10 overflow-hidden rounded-lg bg-white">
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
-                alt="image"
-                class="w-full"
-              />
-              <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
-                <h3>
-                  <a
-                    href="javascript:void(0)"
-                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-                  >
-                    Creative Card Component designs graphic elements
-                  </a>
-                </h3>
-                <p class="text-body-color mb-7 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
-                </p>
-                <a
-                  href="javascript:void(0)"
-                  class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                >
-                  View Details
-                </a>
+            <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+              <div class="mb-10 overflow-hidden rounded-lg bg-pink-300">
+                <img src={robotDev} alt="image" class="w-full" />
+                <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9 bg-white">
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                    >
+                      ROBOTIC AND IOT
+                    </a>
+                  </h3>
+                  <p class="text-body-color mb-7 text-base leading-relaxed">
+                    Discover the fascinating world of robotics. Learn
+                    electronics, programming, and mechanics to design, build,
+                    and program robots for real-world challenges.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="w-full px-4 md:w-1/2 xl:w-1/4">
-            <div class="mb-10 overflow-hidden rounded-lg bg-white">
-              <img
-                src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
-                alt="image"
-                class="w-full"
-              />
-              <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9">
-                <h3>
-                  <a
-                    href="javascript:void(0)"
-                    class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
-                  >
-                    Creative Card Component designs graphic elements
-                  </a>
-                </h3>
-                <p class="text-body-color mb-7 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
-                </p>
-                <a
-                  href="javascript:void(0)"
-                  class="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
-                >
-                  View Details
-                </a>
+            <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+              <div class="mb-10 overflow-hidden rounded-lg bg-purple-300">
+                <img src={ui} alt="image" class="w-full" />
+                <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9 bg-white">
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                    >
+                      UI/UX DESIGN
+                    </a>
+                  </h3>
+                  <p class="text-body-color mb-7 text-base leading-relaxed">
+                    Craft intuitive interfaces and seamless user experiences.
+                    Develop wireframing, prototyping, and usability testing
+                    skills using industry-standard design tools.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 md:w-1/2 xl:w-1/4">
+              <div class="mb-10 overflow-hidden rounded-lg bg-orange-300">
+                <img src={gameDev} alt="image" class="w-full" />
+                <div class="p-8 text-center sm:p-9 md:p-7 xl:p-9 bg-white">
+                  <h3>
+                    <a
+                      href="javascript:void(0)"
+                      class="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                    >
+                      GAME DEVELOPMENT
+                    </a>
+                  </h3>
+                  <p class="text-body-color mb-7 text-base leading-relaxed">
+                    Our course uses Scratch to teach young minds how to create
+                    interactive games, fostering creativity and coding skills in
+                    a fun environment.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

@@ -13,11 +13,11 @@ const SingleTestimonial = ({
       <div className="relative w-full pb-16 md:w-11/12 lg:w-10/12 xl:w-8/12 xl:pb-0">
         <div className="w-full items-center md:flex">
           <div className="relative mb-12 w-full max-w-[310px] md:mr-12 md:mb-0 md:max-w-[250px] lg:mr-14 lg:max-w-[280px] 2xl:mr-16">
-            <img src={image} alt="image" className="w-full" />
-            <span className="absolute -top-6 -left-6 z-[-1] hidden sm:block">
+            <img src={image} alt="image" className="w-full rounded-full" />
+            <span className="absolute -top-6 left-3 z-[-1] hidden sm:block">
               <DotShape />
             </span>
-            <span className="absolute -bottom-6 -right-6 z-[-1]">
+            <span className="absolute -bottom-0 -right-0 z-[-1]">
               <svg
                 width="64"
                 height="64"

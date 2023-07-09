@@ -19,8 +19,18 @@ const Testimonials = () => {
   return (
     <>
       <section className="pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]">
-        <div className="container mx-auto">
+        <div className="max-w-[85rem] mx-auto">
           <Swiper slidesPerView={1} ref={sliderRef}>
+            <SwiperSlide>
+              <SingleTestimonial
+                image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"
+                reviewImg="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/lineicon.svg"
+                reviewAlt="lineicon"
+                details="Velit est sit voluptas eum sapiente omnis! Porro, impedit minus quam reprehenderit tempore sint quaerat id! Mollitia perspiciatis est asperiores commodi labore!"
+                name="Larry Diamond"
+                position="Chief Executive Officer."
+              />
+            </SwiperSlide>
             <SwiperSlide>
               <SingleTestimonial
                 image="https://cdn.tailgrids.com/2.0/image/marketing/images/testimonials/testimonial-01/image-01.jpg"

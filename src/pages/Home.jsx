@@ -6,6 +6,7 @@ import Testimonials from "../component/Testimonials";
 import About from "../component/About";
 import Footer from "../component/Footer";
 import Blog from "../component/Blog";
+import Cta from "../component/Cta";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <Faq /> */}
       <Testimonials />
       <Blog />
+      <Cta />
       <Footer />
     </>
   );
