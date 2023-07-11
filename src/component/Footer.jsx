@@ -11,11 +11,14 @@ export default function Footer() {
                 href="javascript:void(0)"
                 class="mb-6 inline-block max-w-[160px]"
               >
-                <img
+                {/* <img
                   src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
                   alt="logo"
                   class="max-w-full"
-                />
+                /> */}
+                <h4 class="text-dark  text-3xl font-bold">
+                  <span class="text-[#d6d6d6]">Grey</span>dev
+                </h4>
               </a>
               <p class="text-body-color mb-7 text-base">
                 Sed ut perspiciatis undmnis is iste natus error sit amet
@@ -47,7 +50,7 @@ export default function Footer() {
                     href="javascript:void(0)"
                     class="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
                   >
-                    About TailGrids
+                    About Greydev
                   </a>
                 </li>
                 <li>
@@ -173,7 +176,7 @@ export default function Footer() {
                   </svg>
                 </a>
               </div>
-              <p class="text-body-color text-base">&copy; 2025 TailGrids</p>
+              <p class="text-body-color text-base">&copy; 2023 Greydev</p>
             </div>
           </div>
         </div>

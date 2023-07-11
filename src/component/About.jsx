@@ -606,11 +606,11 @@ export default function About() {
             </div>
             <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div class="mt-10 lg:mt-0 relative">
-                <span class="text-primary mb-2 block text-lg font-semibold text-purple-700">
+                <span class="text-primary mb-2 block text-l font-bold text-purple-700">
                   WHO WE ARE
                 </span>
                 <h2 class="text-dark mb-3 text-3xl font-bold sm:text-4xl">
-                  GreyDev
+                  <span class="text-[#d6d6d6]">Grey</span>dev
                 </h2>
                 <p class="text-body-color mb-8 text-base">
                   At GreyDev, we are dedicated to revolutionizing education

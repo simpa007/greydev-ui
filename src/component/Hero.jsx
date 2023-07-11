@@ -13,7 +13,7 @@ export default function () {
         <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
           <div class="lg:col-span-3">
             <h1 class="block leading-5 text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">
-              Empower Learning with Greydev
+              Empower Learning with <span class="text-[#d6d6d6]">Grey</span>dev
             </h1>
             <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">
               Elevate Education Technology with our Innovative Classes.
